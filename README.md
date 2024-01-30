@@ -80,7 +80,7 @@ How To Use Jupyter In Docode
 </div>
 <div class="row text-center">
 <div class="col">
-<iframe frameborder="0" src="https://www.youtube.com/embed/J5MpsvScKzE"></iframe>
+<a href="https://www.youtube.com/embed/J5MpsvScKzE">How to use Jupyter notebook?</a>
 </div>
 </div>
 
