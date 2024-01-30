@@ -122,8 +122,8 @@ pip install pandas matplotlib seaborn scikit-learn pyarrow
 ## Usage
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/newjasjanpython/03-Machine-Learning-Visa-For-Lisa-.git
+   cd 03-Machine-Learning-Visa-For-Lisa-
    ```
 
 2. **Install Dependencies:**
