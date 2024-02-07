@@ -95,7 +95,7 @@ How To Use Jupyter In Docode
 
 In this project, you'll be assisting Galaxy Bank in improving their marketing conversion rates by predicting which deposit clients are most likely to accept a loan offer from the bank. By implementing a multi-variable linear regression model on a large and complex dataset, you'll analyze, evaluate, and present insights that will guide the bank's marketing strategies.
 
-## Installation
+## Installation and Usage
 
 1. Clone repository from github.com
     ```
