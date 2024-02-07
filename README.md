@@ -1,52 +1,69 @@
-# Visa for Lisa Loan Modelling Project
+# Predictive Modeling for Loan Acceptance: Enhancing Marketing Strategies at Galaxy Bank - Visa for Lisa project
 
-## Overview
-The Visa for Lisa project aims to enhance Galaxy Bank's marketing conversion rates by predicting which deposit clients are most likely to accept a loan offer. The project involves implementing a multi-variable linear regression model on a large and complex dataset.
+## Task
 
-## Key Features
-- **Data Collection / Cleaning:**
-  - Utilizes a dataset from a Google Cloud Storage link.
-  - Removes the 'ID' column for data cleaning.
+Visa For Lisa
+Technical details	
+Submit file	*.ipynb
+Visa For Lisa
+This project is about a bank (Galaxy Bank) whose management wants to explore converting some of its deposit customers to become personal loan customers (while retaining them as depositors). In short, they want to upsell customers to purchase more banking products from Galaxy Bank.
 
-- **Data Exploration and Visualization:**
-  - Custom class `DataSet` for summarizing dataset statistics and visualizing data distributions.
-  - Various plots, such as displot, heatmap, pie chart, scatter plot, and pair plot, for exploration.
+The bank has had some previous success in upselling to its deposit clients. Still, unfortunately, not all clients offered a loan by Galaxy Bank accept it and become a loan customers. The bank's campaign last year for its customers showed a healthy loan acceptance conversion rate of over 9%. This data has encouraged the marketing department to devise campaigns with better target marketing to increase the success ratio with a minimal budget.
 
-- **Machine Learning:**
-  - Implements classification models using Scikit-learn library.
-  - Custom class `MLClass` streamlines training, prediction, and evaluation processes for multiple models.
-  - Evaluation metrics include accuracy score, cross-validation score, mean squared error, and confusion matrix.
+The bank wants to predict better and identify who will accept loans offered to potential loan customers. It will help make their marketing efforts more effective with higher conversion rates.
 
-- **Model Saving and Loading:**
-  - Saves the most accurate models (RandomForestClassifier and GradientBoostingClassifier) using the pickle library.
-  - Functions `save_model` and `open_model` are defined for saving and loading models.
+Your mission
+
+Your mission is to help Galaxy Bank improve its marketing conversion rates by allowing them to target and predict which of their deposit clients are most likely to accept a loan offer from the bank. You will be meeting with the marketing leadership at the bank.
+
+What are the success criteria?
+
+During our next meeting, you will have to show us some data (plot? report?) of what you've been building.
+What do you think will happen to the conversion rate?
+Your deliverables:
+
+A presentation with slides.
+Code that the DevOps team should be able to push to production.
+You've heard the CEO will be joining the meeting. It's a reminder that, if you do well, you could quickly expect the promotion you have been hoping for.
+
+Technical specification
+Implement a multi-variable linear regression model on a large and complex data set
+Analyze and evaluate the implications of your model on real-life users
+Analyze and evaluate the risk to the business of the implications, assumptions, and decisions in your model
+What to expect: the five stages of your project In this project, you should expect to cover the five major stages of working with data:
+
+Data Collecting / Cleaning
+Data Exploration
+Data Visualization
+Machine Learning
+Communication
+You will have to prove yourself in each of these. We are confident that you will succeed! :)
+
+Where to find the data?
+
+Loan DataSet
+Reminder, this will be one of your portfolio projects. :-)
+
+## Description
+
+In this project, you'll be assisting Galaxy Bank in improving their marketing conversion rates by predicting which deposit clients are most likely to accept a loan offer from the bank. By implementing a multi-variable linear regression model on a large and complex dataset, you'll analyze, evaluate, and present insights that will guide the bank's marketing strategies.
 
 ## Installation
-To run this project, install the required libraries using the following commands:
-```bash
-pip install pandas matplotlib seaborn scikit-learn pyarrow
-```
 
-## Usage
-1. **Clone the Repository:**
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+1. Clone repository from github.com
+    ```
+    git clone https://github.com/newjasjanpython/03-Machine-Learning-Visa-For-Lisa-/tree/Jasurbek_Abdulkhafizov.git
+    ```
 
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Make sure `jupyter notebook` is installed
+    ```
+    pip install jupyter notebook
+    ```
 
-3. **Run the Code:**
-   - Open and run the provided Jupyter Notebook or Python script.
-   - Ensure that the necessary dataset is available or modify the code to use your dataset.
+3. Run `jupyter notebook`
+    ```
+    jupyter notebook
+    ```
 
-4. **Explore Results:**
-   - Check the generated visualizations and explore the insights gained from the data.
-   - Examine the machine learning model evaluation scores.
-
-5. **Save/Load Models:**
-   - Use the provided functions to save and load the most accurate models for future use.
-
+4. Use web browser to run this codes
+![Reload this page to view image](./browser.png)
