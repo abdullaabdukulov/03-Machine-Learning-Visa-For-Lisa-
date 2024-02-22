@@ -1,29 +1,6 @@
 # 03-Machine-Learning-Visa-For-Lisa
-
-<div class="row">
-<div class="col tab-content">
-<div class="tab-pane active show" id="subject" role="tabpanel">
-<div class="row">
-<div class="col-md-12 col-xl-12">
-<div class="markdown-body">
-<p class="text-muted m-b-15">
-</p><h2>Visa For Lisa</h2>
-<table>
-<thead>
-<tr>
-<th>Technical details</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Submit file</td>
-<td>*.ipynb</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h1>Visa For Lisa</h1>
+***
+### Task
 <p>This project is about a bank (Galaxy Bank) whose management wants to explore converting some of its deposit customers to become personal loan customers (while retaining them as depositors). In short, they want to upsell customers to purchase more banking products from Galaxy Bank.</p>
 <p>The bank has had some previous success in upselling to its deposit clients. Still, unfortunately, not all clients offered a loan by Galaxy Bank accept it and become a loan customers. The bank's campaign last year for its customers showed a healthy loan acceptance conversion rate of over 9%. This data has encouraged the marketing department to devise campaigns with better target marketing to increase the success ratio with a minimal budget.</p>
 <p>The bank wants to predict better and identify who will accept loans offered to potential loan customers. It will help make their marketing efforts more effective with higher conversion rates.</p>
@@ -40,7 +17,8 @@
 <li>Code that the DevOps team should be able to push to production.</li>
 </ul>
 <p>You've heard the CEO will be joining the meeting. It's a reminder that, if you do well, you could quickly expect the promotion you have been hoping for.</p>
-<h2>Technical specification</h2>
+
+### Description 
 <ul>
 <li>Implement a multi-variable linear regression model on a large and complex data set</li>
 <li>Analyze and evaluate the implications of your model on real-life users</li>
@@ -60,32 +38,15 @@ In this project, you should expect to cover the five major stages of working wit
 <ul>
 <li><a href="https://storage.googleapis.com/qwasar-public/track-ds/Visa_For_Lisa_Loan_Modelling.csv" target="_blank">Loan DataSet</a></li>
 </ul>
-<p>Reminder, this will be one of your portfolio projects. :-)</p>
 
-<p></p>
-</div>
+### Installation
+For working with this project you need to install required packages mentioned in `requierements.txt`
 
-</div>
-</div>
-</div>
-<div class="tab-pane" id="resources" role="tabpanel">
-<div class="row">
-<div class="col-xl-12">
-<div class="row text-center">
-<div class="col p-t-10 f-12">
-<p>
-How To Use Jupyter In Docode
-</p>
-</div>
-</div>
-<div class="row text-center">
-<div class="col">
-<a href="https://www.youtube.com/embed/J5MpsvScKzE">How to use Jupyter notebook?</a>
-</div>
-</div>
+```bash
+    # Write ti in your terminal
+    pip install -r requirements.txt
+```
 
-</div>
-</div>
-</div>
-</div>
-</div>
+### Usage
+For using this project you need to run `visa_for_lisa.ipynb`, so open it with your code editor or with jupyter notebook.
+
