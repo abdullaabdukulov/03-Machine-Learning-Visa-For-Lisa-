@@ -10,8 +10,12 @@ The bank has had some previous success in upselling to its deposit clients. Stil
 The bank wants to predict better and identify who will accept loans offered to potential loan customers. It will help make their marketing efforts more effective with higher conversion rates.
 
 # Installation
-Please download http key to download this project, install all required libraries and run.
+If you haven't installed the necessary libraries, run the following command in a code cell to install them:
+   ```python
+   !pip install pandas numpy scikit-learn
+   ```
 
 # Usage
-My mission is to help Galaxy Bank improve its marketing conversion rates by allowing them to target and predict which of their deposit clients are most likely to accept a loan offer from the bank.
-Write a report for stakeholders.
+## Running the Jupyter Notebook
+
+**Open the Notebook:** Start by opening the Jupyter Notebook file (`visa_for_lisa.ipynb`) in Jupyter Notebook or JupyterLab.
