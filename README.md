@@ -19,3 +19,4 @@ If you haven't installed the necessary libraries, run the following command in a
 ## Running the Jupyter Notebook
 
 **Open the Notebook:** Start by opening the Jupyter Notebook file (`visa_for_lisa.ipynb`) in Jupyter Notebook or JupyterLab.
+**Download the Data:** You can also download the data at this link (https://storage.googleapis.com/qwasar-public/track-ds/Visa_For_Lisa_Loan_Modelling.csv)
