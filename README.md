@@ -29,7 +29,7 @@ make their marketing efforts more effective with higher conversion rates.
 ## Installation
 If you haven't installed the necessary libraries, run the following command in a code cell to install them:
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
